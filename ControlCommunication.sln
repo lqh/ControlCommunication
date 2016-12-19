@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ControlCommunication", "ControlCommunication\ControlCommunication\ControlCommunication.vcxproj", "{58E22207-9AB7-4917-A5DB-01768DEAD03E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0} = {AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}
+		{9E4410E5-7C55-4509-96D3-975E2562331E} = {9E4410E5-7C55-4509-96D3-975E2562331E}
+		{4E44CCFE-9785-4F96-B751-8E335640283C} = {4E44CCFE-9785-4F96-B751-8E335640283C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ControlCommunicationUI", "ControlCommunication\ControlCommunicationUI\ControlCommunicationUI.vcxproj", "{4E44CCFE-9785-4F96-B751-8E335640283C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCommunication.AboutBoxPackage", "ControlCommunication\ControlCommunication.AboutBoxPackage\ControlCommunication.AboutBoxPackage.csproj", "{9E4410E5-7C55-4509-96D3-975E2562331E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellExtensionsVSIX", "ControlCommunication\ShellExtensionsVSIX\ShellExtensionsVSIX.csproj", "{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Debug|x86.ActiveCfg = Debug|Win32
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Debug|x86.Build.0 = Debug|Win32
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Release|x86.ActiveCfg = Release|Win32
+		{58E22207-9AB7-4917-A5DB-01768DEAD03E}.Release|x86.Build.0 = Release|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Debug|x86.Build.0 = Debug|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Release|x86.ActiveCfg = Release|Win32
+		{4E44CCFE-9785-4F96-B751-8E335640283C}.Release|x86.Build.0 = Release|Win32
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E4410E5-7C55-4509-96D3-975E2562331E}.Release|x86.Build.0 = Release|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA086F8A-A65E-48C4-ADA9-C3CF6CF6D4B0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
